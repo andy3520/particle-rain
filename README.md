@@ -41,7 +41,7 @@ A mesmerizing, interactive particle system built with React, TypeScript, and Can
 
 ## 🚀 Live Demo
 
-**[View Live Demo](https://andy3520.github.io/particle-rain)**
+**[View Live Demo](https://github.com/andy3520/particle-rain)**
 
 ## 🛠️ Technology Stack
 
