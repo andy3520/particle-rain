@@ -5,6 +5,7 @@ A mesmerizing, interactive particle system built with React, TypeScript, and Can
 ## ✨ Features
 
 ### 🎮 **6 Interactive Modes**
+
 - **🌧️ Rain** - Classic falling particles
 - **🎆 Firework** - Explosive particle bursts
 - **🌀 Spiral** - Swirling spiral patterns
@@ -13,6 +14,7 @@ A mesmerizing, interactive particle system built with React, TypeScript, and Can
 - **🌪️ Vortex** - Swirling vortex effects around cursor
 
 ### 🎛️ **Real-time Controls**
+
 - **Speed Control** - Adjust particle movement speed
 - **Particle Size** - Change particle dimensions
 - **Trail Length** - Customize particle trails
@@ -21,6 +23,7 @@ A mesmerizing, interactive particle system built with React, TypeScript, and Can
 - **Auto Explode** - Automatic firework explosions
 
 ### ⌨️ **Keyboard Shortcuts**
+
 - `1-6` - Switch between particle modes
 - `Space` - Toggle auto-explode for firework mode
 - `↑↓` - Increase/decrease speed
@@ -31,13 +34,14 @@ A mesmerizing, interactive particle system built with React, TypeScript, and Can
 - `C` - Hide/show controls
 
 ### 🖱️ **Mouse Interactions**
+
 - **Click** - Create particle explosions
 - **Drag** - Continuous particle generation
 - **Move** - Particles follow mouse movement (magnetic/vortex modes)
 
 ## 🚀 Live Demo
 
-**[View Live Demo](https://your-username.github.io/particle-rain)**
+**[View Live Demo](https://andy3520.github.io/particle-rain)**
 
 ## 🛠️ Technology Stack
 
@@ -51,7 +55,7 @@ A mesmerizing, interactive particle system built with React, TypeScript, and Can
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/particle-rain.git
+git clone https://github.com/andy3520/particle-rain.git
 
 # Navigate to project directory
 cd particle-rain
@@ -83,18 +87,21 @@ particle-rain/
 ## 🎯 Key Features
 
 ### **Efficient Architecture**
+
 - **Custom Hooks** - Separated concerns for better maintainability
 - **Optimized Rendering** - Smooth 60fps animations
 - **Memory Management** - Proper cleanup and garbage collection
 - **Type Safety** - Full TypeScript coverage
 
 ### **Interactive Physics**
+
 - **Realistic Gravity** - Natural particle movement
 - **Collision Detection** - Bouncing off boundaries
 - **Force Fields** - Magnetic attraction and vortex effects
 - **Particle Lifecycle** - Birth, movement, and decay
 
 ### **Visual Effects**
+
 - **Particle Trails** - Dynamic trail rendering
 - **Shadow Effects** - Glowing particles with shadows
 - **Color Gradients** - Beautiful color transitions
@@ -103,16 +110,19 @@ particle-rain/
 ## 🎨 Customization
 
 ### **Adding New Particle Types**
+
 1. Extend the `ParticleType` in `useParticleSystem.ts`
 2. Add physics logic in the `updateParticles` function
 3. Implement rendering styles in the drawing section
 
 ### **Creating New Color Themes**
+
 1. Add new theme to `colorThemes` object
 2. Update the `ColorTheme` type
 3. Add theme button in `ControlsPanel.tsx`
 
 ### **Modifying Physics**
+
 - Adjust gravity values in the config
 - Modify collision detection logic
 - Change particle life and decay rates
@@ -120,9 +130,11 @@ particle-rain/
 ## 🚀 Deployment
 
 ### **GitHub Pages**
+
 This project is configured for GitHub Pages deployment:
 
 1. **Build the project:**
+
    ```bash
    npm run build
    ```
@@ -133,6 +145,7 @@ This project is configured for GitHub Pages deployment:
    - Set source to `gh-pages` branch or `/docs` folder
 
 ### **Other Platforms**
+
 - **Netlify** - Drag and drop `build` folder
 - **Vercel** - Connect GitHub repository
 - **Firebase Hosting** - Use Firebase CLI
@@ -160,4 +173,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ and lots of particles!**
 
-*Enjoy creating beautiful visual effects! 🌟*
+_Enjoy creating beautiful visual effects! 🌟_
