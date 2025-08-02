@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/particle-rain/static/css/main.fddbe74c.css",
+    "main.js": "/particle-rain/static/js/main.94b51e05.js",
+    "static/js/453.ff619c52.chunk.js": "/particle-rain/static/js/453.ff619c52.chunk.js",
+    "index.html": "/particle-rain/index.html",
+    "main.fddbe74c.css.map": "/particle-rain/static/css/main.fddbe74c.css.map",
+    "main.94b51e05.js.map": "/particle-rain/static/js/main.94b51e05.js.map",
+    "453.ff619c52.chunk.js.map": "/particle-rain/static/js/453.ff619c52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fddbe74c.css",
+    "static/js/main.94b51e05.js"
+  ]
+}
